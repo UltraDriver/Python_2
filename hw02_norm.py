@@ -6,8 +6,6 @@
 # если такой корень вообще можно извлечь
 # Пример: Дано: [2, -5, 8, 9, -25, 25, 4]   Результат: [3, 5, 2]
 import math
-from datetime import datetime
-import locale
 import random
 print('Задача-1:')
 data = [2, -5, 8, 9, -25, 25, 4]
