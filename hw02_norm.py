@@ -35,10 +35,10 @@ month = {1: "января", 2: "февраля", 3: "марта", 4: "апрел
          5: "мая", 6: "июня", 7: "июля",
          8: "августа", 9: "сентября", 10: "октября",
          11: "ноября", 12: "декабря"}
-dayToday = D[0:2]
-monthToday = D[3:5]
+dayToday = int(D[0:2])
+monthToday = int(D[3:5])
 yearToday = D[6:10]
-print(f"Дата {D} в текстовом виде: {day[int(D[0:2])]} {month[int(monthToday[0:2])]} {yearToday} года\n")
+print(f"Дата {D} в текстовом виде: {day[dayToday]} {month[monthToday]} {yearToday} года\n")
 print('-' * 50)
 
 
